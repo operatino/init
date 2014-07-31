@@ -1,38 +1,40 @@
-<h1>Source - Front-end Documentation Engine</h1>
+<div class="source_subhead">
+    <h1>SourceJS — Living Style Guide on Steroids</h1>
+</div>
 
 <div class="source_col">
-    <div class="source_catalog" data-nav="docs">
+    <div class="source_catalog" data-nav="/docs">
         <ul class="source_catalog_list">
             <!--Navigation generated dynamically via Global Navigation module-->
-            <img src="/core/i/process.gif" alt="Loading..."/>
+            <img src="/source/assets/i/process.gif" alt="Loading..."/>
         </ul>
     </div>
 </div
 ><div class="source_col">
-    <div class="source_catalog" data-nav="new-category">
-        <h2><a class="source_a_bl" href="#777">Another Category (demo)</a></h2>
+    <div class="source_catalog" data-nav="/specs">
+        <h2 class="source_catalog_title"><a class="source_a_bl" href="/specs">Specs</a></h2>
 
         <div class="source_catalog_tx">
-            Description
+            Your first Specs directory.
         </div>
 
         <ul class="source_catalog_list">
             <!--Navigation generated dynamically via Global Navigation module-->
-            <img src="/core/i/process.gif" alt="Loading..."/>
+            <img src="/source/assets/i/process.gif" alt="Loading..."/>
         </ul>
     </div>
 </div
 ><div class="source_col">
 
     <div class="source_catalog">
-        <h2><a class="source_a_bl" href="#777">Useful Links</a></h2>
+         <h2 class="source_catalog_title"><a class="source_a_bl" href="#777">Useful Links</a></h2>
         <div class="source_catalog_tx">Add useful links for your team here.</div>
     </div>
 
     <hr class="source_delim">
 
     <div class="source_catalog">
-        <h2><a class="source_a_bl" href="#777">Code Style Guide (demo)</a></h2>
+         <h2 class="source_catalog_title"><a class="source_a_bl" href="#777">Code Style Guide (demo)</a></h2>
         <div class="source_catalog_tx">And etc</div>
     </div>
 
