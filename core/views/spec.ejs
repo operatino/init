@@ -6,15 +6,15 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title><%= title %></title>
-    <meta name="author" content="<%= author %>">
-    <% if (keywords !== '') {%>
-    <meta name="keywords" content="<%= keywords %>">
+    <title><%= info.title %></title>
+    <meta name="author" content="<%= info.author %>">
+    <% if (info.keywords !== '') {%>
+    <meta name="keywords" content="<%= info.keywords %>">
     <% } %>
 
     <!-- Source default resources -->
         <link href="/source/assets/css/source.css" rel="stylesheet">
-        <script data-main="enter-the-source" src="/source/assets/js/require.bundle.js"></script>
+        <script data-main="/source/assets/js/enter-the-source.js" src="/source/assets/js/require.bundle.js"></script>
     <!-- /Source default resources -->
 
     <link href="/docs/data/project.css" rel="stylesheet">
