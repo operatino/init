@@ -8,6 +8,6 @@
     <h2>Basic button</h2>
 
     <div class="source_example">
-        <a href="#777" class="btn btn-primary">Button</button>
+        <a href="#777" class="btn btn-primary">Button</a>
     </div>
 </section>
