@@ -2,4 +2,6 @@
     <h1>Specs directory</h1>
 </div>
 
-<div class="source_catalog" data-nav="/specs" data-tag="without-tag"></div>
+<div class="source_catalog" data-nav="/specs">
+    <h2>List of all specs</h2>
+</div>
