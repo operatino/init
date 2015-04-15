@@ -1,4 +1,4 @@
-Initialized with [SourceJS](http://sourcejs.com) 0.5.1 - Living Style Guide Engine and Maintenance Environment for Front-end Components.
+Initialized with [SourceJS](http://sourcejs.com) 0.5.2 - Living Style Guide Engine and Maintenance Environment for Front-end Components.
 
 ___
 
