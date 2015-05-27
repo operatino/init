@@ -1,11 +1,15 @@
 // User options for overriding core options.js
 
 module.exports = {
-    // Restart app after changing core options
+    // Restart the app after changing core (back-end) options
+    // Core options could be only redefined from user/options.js, context options are not supported
     core: {
     },
 
-    // Run `grunt` after changing assets options. Or use`grunt watch-all`.
+    // Page rendering configuration (redefinable from context options)
+    rendering: {},
+
+    // Client-side options (redefinable from context options)
     assets: {
         modulesEnabled : {
             // Overriding example
@@ -14,22 +18,12 @@ module.exports = {
 
         modulesOptions : {
             // Modules options example
-            // innerNavigation : {
-            //   hashSymb: '!'
-            //   }
-        },
-
-        // Plugins
-        pluginsEnabled : {
-            // user/plugins/counter/counter.js enabling example
-            // 'counter/counter': true
-        },
-
-        pluginsOptions : {
-            // Plugins options example
-            // somePlugin : {
-            //     someOption: true
+            // navHighlight: {
+            //     updateHash: false
             // }
         }
-    }
+    },
+
+    // External plugins options (are also exposed to client-side
+    plugins: {}
 };
