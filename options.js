@@ -21,7 +21,10 @@ module.exports = {
             // navHighlight: {
             //     updateHash: false
             // }
-        }
+        },
+        
+        // Legacy options object support for some older plugins
+        pluginsOptions: {}
     },
 
     // External plugins options (are also exposed to client-side
