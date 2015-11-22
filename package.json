@@ -7,6 +7,6 @@
     "start": "node ./node_modules/sourcejs/app.js"
   },
   "dependencies": {
-    "sourcejs": "^0.6.0-nightly.3"
+    "sourcejs": "sourcejs/Source#0.6.0-dev"
   }
 }
